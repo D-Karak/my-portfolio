@@ -53,27 +53,27 @@ export const EXPERIENCES: Experience[] = [
 export const BLOGS: BlogPost[] = [
   {
     id: '1',
-    title: 'Conducting in-depth research and usability testing',
-    category: 'MARKETING',
+    title: 'How web works in-depth',
+    category: 'TECHNOLOGY',
     readTime: '5 min read',
-    image: 'https://picsum.photos/seed/blog1/400/300',
-    content: 'Conducting in-depth research and usability testing is a critical aspect of product development. It helps teams understand user needs, identify pain points, and validate assumptions. This process ensures that the final product meets user expectations and addresses real-world challenges. By investing time in research, teams can make informed decisions, reduce development risks, and create products that resonate with their target audience.'
+    image: '/images/blog-1-web.jpg',
+    content: `The World Wide Web (WWW) is a global information system that allows users to access and share information over the internet. It is built on a client-server architecture, where web servers host websites and web browsers (clients) access and display this content. The web uses the HTTP (Hypertext Transfer Protocol) for communication between servers and clients, enabling the transfer of data and resources. Key components of the web include HTML (Hypertext Markup Language) for structuring content, CSS (Cascading Style Sheets) for styling, and JavaScript for interactivity. The web has revolutionized communication, commerce, and information sharing, connecting billions of users worldwide and enabling the creation of dynamic, interactive, and visually appealing online experiences.`
   },
   {
     id: '2',
-    title: 'Designing cohesive strategies and visual identities',
-    category: 'STRATEGY',
+    title: 'What is VPN and how it works',
+    category: 'TECHNOLOGY',
     readTime: '8 min read',
-    image: 'https://picsum.photos/seed/blog2/400/300',
-    content: `Designing cohesive strategies and visual identities is essential for creating a strong brand presence. It involves developing a consistent visual language that aligns with the brand's values and resonates with its audience.This process ensures that the final product is visually appealing, memorable, and consistent across all touchpoints.By investing time in design, teams can create products that stand out and leave a lasting impression on their target audience.`
+    image: '/images/blog-2-proxy.jpg',
+    content: `A VPN (Virtual Private Network) is a secure connection that encrypts your internet traffic and masks your IP address, providing privacy and security while allowing you to access content from different locations. It works by creating a virtual tunnel between your device and a remote server, routing your traffic through this tunnel to bypass geo-restrictions and protect your online identity.`
   },
   {
     id: '3',
-    title: 'The future of minimal interfaces in 2025',
-    category: 'DESIGN',
+    title: 'The Evolution of JavaScript',
+    category: 'TECHNOLOGY',
     readTime: '4 min read',
-    image: 'https://picsum.photos/seed/blog3/400/300',
-    content: 'The future of minimal interfaces in 2025 is a topic of much debate and speculation. Some argue that minimalism will continue to grow in popularity, while others predict a shift towards more interactive and engaging experiences. The key to success in this space will be finding the right balance between simplicity and functionality. By investing time in research and development, teams can create products that are both visually appealing and easy to use, leaving a lasting impression on their target audience.'
+    image: '/images/blog-3-javascript.jpg',
+    content: `JavaScript has come a long way since its inception in 1995. From humble beginnings as a simple scripting language for web pages, it has evolved into a powerful, versatile, and essential programming language used in both frontend and backend development. This article explores the journey of JavaScript, highlighting its key milestones, influential features, and its impact on modern web development. By understanding its evolution, developers can appreciate the language's growth and its role in shaping the future of web technologies.`
   }
 ];
 
