@@ -23,13 +23,13 @@ export default function Home() {
               (Exclusive Collaboration Offer)
             </span>
             <h2 className="text-4xl md:text-7xl font-bold text-brandWhite tracking-tighter max-w-4xl mx-auto leading-[0.9]">
-              Let’s design the future of your product together.
+              Let’s build the future of your product together.
             </h2>
             <p className="text-secondary max-w-xl mx-auto text-lg">
-              Book a free 30-minute strategic consultation. Limited slots available for Q1 2025.
+              Let's have a strategic consultation. Limited slots available for Q1 2025.
             </p>
             <a href="#contact" className="inline-flex items-center gap-3 px-8 py-4 bg-brandWhite text-primary rounded-full font-bold hover:scale-105 transition-transform">
-              Claim Your Session <ArrowUpRight size={20} />
+              Let's Connect <ArrowUpRight size={20} />
             </a>
           </div>
 

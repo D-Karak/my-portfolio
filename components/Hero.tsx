@@ -2,7 +2,8 @@
 'use client';
 
 import React from 'react';
-import { ArrowDown } from 'lucide-react';
+import { ArrowDown, FileUserIcon } from 'lucide-react';
+import Link from 'next/link';
 const Hero: React.FC = () => {
   return (
     <section className="relative pt-32 pb-20 px-6 min-h-[90vh] flex flex-col justify-center overflow-hidden">
@@ -25,11 +26,17 @@ const Hero: React.FC = () => {
           </div>
 
           <div className="flex items-center gap-10">
-            <a href="#portfolio" className="group flex items-center gap-4 font-bold uppercase tracking-widest text-xs transition-opacity hover:opacity-70 text-brandWhite">
+            <Link href="#portfolio" className="group flex items-center gap-4 font-bold uppercase tracking-widest text-xs transition-opacity hover:opacity-70 text-brandWhite">
               <span className="w-10 h-10 border rounded-full flex items-center justify-center transition-all border-white/20 group-hover:bg-brandWhite group-hover:text-primary">
                 <ArrowDown size={14} />
               </span>
               View Portfolio
+            </Link>
+            <a href="files/Dibyendu_CV.pdf" download className="group flex items-center gap-4 font-bold uppercase tracking-widest text-xs transition-opacity hover:opacity-70 text-brandWhite">
+              <span className="w-10 h-10 border rounded-full flex items-center justify-center transition-all border-white/20 group-hover:bg-brandWhite group-hover:text-primary">
+                <FileUserIcon size={14} />
+              </span>
+              Download Resume
             </a>
           </div>
         </div>
@@ -37,7 +44,6 @@ const Hero: React.FC = () => {
         <div className="lg:col-span-6 relative animate-blur-in" style={{ animationDelay: '0.3s' }}>
           <div className="relative z-10 rounded-[4rem] overflow-hidden aspect-[1/1.1] shadow-2xl bg-white/5">
             <img
-              // src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=1200"
               src="/images/hero.png"
               alt="Developer"
               className="w-full h-full object-cover grayscale transition-all duration-1000 hover:grayscale-0 scale-105 hover:scale-100"

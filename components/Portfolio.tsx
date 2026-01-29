@@ -4,19 +4,24 @@
 import React from 'react';
 import { PROJECTS } from '../constants';
 import { ArrowUpRight } from 'lucide-react';
+import Link from 'next/link';
 
 const Portfolio: React.FC = () => {
   return (
     <section id="portfolio" className="py-32 px-6">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
+        <div className="flex flex-col md:flex-row justify-between items-center mb-20 gap-8">
           <div className="space-y-4">
             <p className="text-secondary font-bold uppercase tracking-[0.3em] text-[10px]">Case Studies</p>
             <h2 className="text-6xl md:text-8xl font-bold tracking-tighter leading-none text-primary dark:text-brandWhite">Selected Works</h2>
+            <p className="text-secondary max-w-sm text-lg font-medium">
+              A curated selection of digital products where design meets high-performance engineering.
+            </p>
           </div>
-          <p className="text-secondary max-w-sm text-lg font-medium">
-            A curated selection of digital products where design meets high-performance engineering.
-          </p>
+          <Link href="https://vercel.com/dibyendu-karaks-projects" target='_blank' className="group flex items-center justify-center gap-2 font-bold uppercase tracking-widest text-xs border-b border-brandWhite/20 pb-1 text-brandWhite transition-colors hover:text-brandWhite/70">
+            View All Posts
+            <ArrowUpRight size={14} className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
+          </Link>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
