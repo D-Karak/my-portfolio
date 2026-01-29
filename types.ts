@@ -1,4 +1,4 @@
-
+﻿
 export interface Project {
   id: string;
   title: string;
@@ -24,6 +24,7 @@ export interface BlogPost {
   category: string;
   readTime: string;
   image: string;
+  content: string;
 }
 
 export interface Skill {

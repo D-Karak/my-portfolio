@@ -56,21 +56,24 @@ export const BLOGS: BlogPost[] = [
     title: 'Conducting in-depth research and usability testing',
     category: 'MARKETING',
     readTime: '5 min read',
-    image: 'https://picsum.photos/seed/blog1/400/300'
+    image: 'https://picsum.photos/seed/blog1/400/300',
+    content: 'Conducting in-depth research and usability testing is a critical aspect of product development. It helps teams understand user needs, identify pain points, and validate assumptions. This process ensures that the final product meets user expectations and addresses real-world challenges. By investing time in research, teams can make informed decisions, reduce development risks, and create products that resonate with their target audience.'
   },
   {
     id: '2',
     title: 'Designing cohesive strategies and visual identities',
     category: 'STRATEGY',
     readTime: '8 min read',
-    image: 'https://picsum.photos/seed/blog2/400/300'
+    image: 'https://picsum.photos/seed/blog2/400/300',
+    content: `Designing cohesive strategies and visual identities is essential for creating a strong brand presence. It involves developing a consistent visual language that aligns with the brand's values and resonates with its audience.This process ensures that the final product is visually appealing, memorable, and consistent across all touchpoints.By investing time in design, teams can create products that stand out and leave a lasting impression on their target audience.`
   },
   {
     id: '3',
     title: 'The future of minimal interfaces in 2025',
     category: 'DESIGN',
     readTime: '4 min read',
-    image: 'https://picsum.photos/seed/blog3/400/300'
+    image: 'https://picsum.photos/seed/blog3/400/300',
+    content: 'The future of minimal interfaces in 2025 is a topic of much debate and speculation. Some argue that minimalism will continue to grow in popularity, while others predict a shift towards more interactive and engaging experiences. The key to success in this space will be finding the right balance between simplicity and functionality. By investing time in research and development, teams can create products that are both visually appealing and easy to use, leaving a lasting impression on their target audience.'
   }
 ];
 

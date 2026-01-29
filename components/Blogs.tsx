@@ -2,6 +2,7 @@
 import React from 'react';
 import { BLOGS } from '../constants';
 import { ArrowUpRight, ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 
 const Blogs: React.FC = () => {
   return (
@@ -11,16 +12,16 @@ const Blogs: React.FC = () => {
           <div className="space-y-4">
             <h2 className="text-6xl md:text-8xl font-bold tracking-tighter leading-none text-brandWhite">Latest Writings</h2>
           </div>
-          <a href="#" className="group flex items-center gap-2 font-bold uppercase tracking-widest text-xs border-b border-brandWhite/20 pb-1 text-brandWhite transition-colors hover:text-brandWhite/70">
+          <Link href="/blog" className="group flex items-center gap-2 font-bold uppercase tracking-widest text-xs border-b border-brandWhite/20 pb-1 text-brandWhite transition-colors hover:text-brandWhite/70">
             View All Posts
             <ArrowUpRight size={14} className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
-          </a>
+          </Link>
         </div>
 
         <div className="space-y-8">
           {BLOGS.map((post, idx) => (
-            <a key={idx} href="#" className="flex flex-col md:flex-row gap-8 group py-8 border-b border-white/10 animate-blur-in">
-              <div className="w-full md:w-1/3 aspect-video rounded-3xl overflow-hidden bg-white/5">
+            <Link key={idx} href={`/blog/${post.id}`} className="flex flex-col md:flex-row gap-8 group py-8 border-b border-white/10 animate-blur-in">
+              <div className="w-full md:w-1/3 aspect-video rounded-4xl overflow-hidden bg-white/5">
                 <img src={post.image} alt={post.title} className="w-full h-full object-cover transition-transform grayscale group-hover:grayscale-0 duration-700 group-hover:scale-105" />
               </div>
               <div className="flex-1 flex flex-col justify-center space-y-4">
@@ -34,7 +35,7 @@ const Blogs: React.FC = () => {
                   Read Article <ArrowRight size={14} className="transition-transform group-hover:translate-x-2" />
                 </div>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </div>

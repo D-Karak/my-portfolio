@@ -37,7 +37,8 @@ const Hero: React.FC = () => {
         <div className="lg:col-span-6 relative animate-blur-in" style={{ animationDelay: '0.3s' }}>
           <div className="relative z-10 rounded-[4rem] overflow-hidden aspect-[1/1.1] shadow-2xl bg-white/5">
             <img
-              src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=1200"
+              // src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=1200"
+              src="/images/hero.png"
               alt="Developer"
               className="w-full h-full object-cover grayscale transition-all duration-1000 hover:grayscale-0 scale-105 hover:scale-100"
             />

@@ -1,6 +1,7 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import { Menu, X, ArrowUpRight } from 'lucide-react';
+import Link from 'next/link';
 
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -22,22 +23,22 @@ const Navbar: React.FC = () => {
   return (
     <nav className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-500 ${isScrolled ? 'bg-brandWhite/70 backdrop-blur-xl py-4 shadow-sm' : 'bg-transparent py-8'}`}>
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-        <a href="#" className="flex items-center gap-2 group">
+        <Link href="/" className="flex items-center gap-2 group">
           <div className={`w-9 h-9 rounded-xl flex items-center justify-center transition-all group-hover:rotate-12 ${isScrolled ? 'bg-primary' : 'bg-brandWhite'}`}>
             <div className={`w-4 h-4 rounded-sm rotate-45 transition-colors ${isScrolled ? 'bg-brandWhite' : 'bg-primary'}`}></div>
           </div>
-          <span className={`font-bold text-2xl transition-colors tracking-tighter ${isScrolled ? 'text-primary' : 'text-brandWhite'}`}>Karak</span>
-        </a>
+          <span className={`font-bold text-2xl transition-colors tracking-tighter ${isScrolled ? 'text-primary' : 'text-brandWhite'}`}> Dibyendu Karak</span>
+        </Link>
 
         <div className="hidden md:flex items-center gap-10">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.name}
-              href={link.href}
+              href={link.href === '/blog' ? '/blog' : `/${link.href}`}
               className="text-secondary hover:text-brandWhite transition-colors font-semibold text-sm tracking-tight"
             >
               {link.name}
-            </a>
+            </Link>
           ))}
         </div>
 

@@ -31,7 +31,7 @@ const About: React.FC = () => {
               <p className="text-secondary text-sm">Average increase in client engagement in the first 6 months.</p>
             </div>
 
-            <div className="rounded-[2.5rem] overflow-hidden grayscale aspect-square relative group">
+            <div className="rounded-[2.5rem] overflow-hidden grayscale aspect-square relative">
               <img src="https://picsum.photos/seed/about2/600/600" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Work" />
               <div className="absolute inset-0 bg-primary/20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                 <div className="w-12 h-12 bg-brandWhite rounded-full flex items-center justify-center text-primary">
