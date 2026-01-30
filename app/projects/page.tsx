@@ -41,7 +41,7 @@ export default function ProjectsPage() {
                                 <img
                                     src={project.image}
                                     alt={project.title}
-                                    className="w-full object-cover grayscale transition-all duration-1000 group-hover:grayscale-0 group-hover:scale-105"
+                                    className="w-full object-cover object-center grayscale transition-all duration-1000 group-hover:grayscale-0 group-hover:scale-105"
                                 />
                                 <div className="absolute top-8 right-8 w-14 h-14 rounded-full flex items-center justify-center opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 shadow-xl bg-brandWhite text-primary dark:bg-primary dark:text-brandWhite">
                                     <ArrowUpRight size={24} />
@@ -55,9 +55,9 @@ export default function ProjectsPage() {
                                     <h3 className="text-3xl font-bold tracking-tighter text-primary dark:text-brandWhite">{project.title}</h3>
                                     <p className="text-secondary font-medium italic">— {project.subtitle}</p>
                                 </div>
-                                <Link href={project.githubLink} target='_blank' className="w-12 h-12 border rounded-full flex items-center justify-center transition-all border-white/10 hover:bg-brandWhite hover:text-primary">
+                                {project.githubLink !== '#' && project.githubLink.length > 0 && <Link href={project.githubLink} target='_blank' className="w-12 h-12 border rounded-full flex items-center justify-center transition-all border-white/10 hover:bg-brandWhite hover:text-primary">
                                     <Github size={18} />
-                                </Link>
+                                </Link>}
                             </div>
                         </Link>
                     ))}

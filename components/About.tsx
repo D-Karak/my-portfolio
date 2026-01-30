@@ -27,8 +27,8 @@ const About: React.FC = () => {
               <div className="w-12 h-12 rounded-full flex items-center justify-center bg-secondary/20">
                 <Globe size={24} className="text-brandWhite" />
               </div>
-              <h3 className="text-5xl font-bold tracking-tighter text-brandWhite">120%</h3>
-              <p className="text-secondary text-sm">Average increase in client engagement in the first 6 months.</p>
+              <h3 className="text-5xl font-bold tracking-tighter text-brandWhite">Open for Opportunities</h3>
+              <p className="text-secondary text-sm">I am currently seeking new opportunities to leverage my skills and contribute to innovative projects. If you have a role that aligns with my expertise, I would love to discuss it further.</p>
             </div>
 
             <div className="rounded-[2.5rem] overflow-hidden grayscale aspect-square relative">

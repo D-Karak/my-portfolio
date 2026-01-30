@@ -9,7 +9,7 @@ export const PROJECTS: Project[] = [
     subtitle: 'For The Furnish',
     image: '/images/the-furnish.png',
     link: 'https://e-commerce-roan-mu.vercel.app/',
-    githubLink: '#',
+    githubLink: 'https://github.com/D-Karak/E-Commerce.git',
     category: 'Full Stack'
   },
   {
@@ -18,7 +18,7 @@ export const PROJECTS: Project[] = [
     subtitle: 'For Zume AI',
     image: '/images/zume-ai.png',
     link: 'https://zumeai.vercel.app/',
-    githubLink: '#',
+    githubLink: 'https://github.com/D-Karak/Zume.git',
     category: 'Full Stack'
   },
   {
@@ -27,8 +27,35 @@ export const PROJECTS: Project[] = [
     subtitle: 'For Dibyendu Karak',
     image: '/images/portfolio.png',
     link: 'https://dibyendu-karak-portfolio-05.vercel.app/',
-    githubLink: '#',
+    githubLink: 'https://github.com/D-Karak/my-portfolio.git',
     category: 'Portfolio'
+  },
+  {
+    id: '4',
+    title: 'Weather Web-app',
+    subtitle: 'For Dibyendu Karak',
+    image: '/images/Weather-Application.png',
+    link: 'https://weather-application-eccru.vercel.app/',
+    githubLink: 'https://github.com/D-Karak/JavaScript-Projects/tree/master/11.%20Weather%20application',
+    category: 'Weather API'
+  },
+  {
+    id: '5',
+    title: 'Simple Blog Layout',
+    subtitle: 'For Dibyendu Karak',
+    image: '/images/blog-layout.png',
+    link: 'https://simplebloglayout.netlify.app/',
+    githubLink: '#',
+    category: 'Layout'
+  },
+  {
+    id: '6',
+    title: 'Grid Layout',
+    subtitle: 'For Dibyendu Karak',
+    image: '/images/grid-layout.png',
+    link: 'https://image-grid-gallery.netlify.app/',
+    githubLink: '#',
+    category: 'Layout'
   }
 ];
 

@@ -25,7 +25,7 @@ const Portfolio: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          {PROJECTS.map((project, idx) => (
+          {PROJECTS.slice(0, 3).map((project, idx) => (
             <Link
               key={project.id}
               href={project.link}
