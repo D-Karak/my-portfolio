@@ -5,6 +5,7 @@ export interface Project {
   subtitle: string;
   image: string;
   link: string;
+  githubLink: string;
   category: string;
 }
 

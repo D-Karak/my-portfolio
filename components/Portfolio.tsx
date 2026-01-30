@@ -18,8 +18,8 @@ const Portfolio: React.FC = () => {
               A curated selection of digital products where design meets high-performance engineering.
             </p>
           </div>
-          <Link href="https://vercel.com/dibyendu-karaks-projects" target='_blank' className="group flex items-center justify-center gap-2 font-bold uppercase tracking-widest text-xs border-b border-brandWhite/20 pb-1 text-brandWhite transition-colors hover:text-brandWhite/70">
-            View All Posts
+          <Link href="/projects" className="group flex items-center justify-center gap-2 font-bold uppercase tracking-widest text-xs border-b border-brandWhite/20 pb-1 text-brandWhite transition-colors hover:text-brandWhite/70">
+            View All Creation
             <ArrowUpRight size={14} className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
           </Link>
         </div>
@@ -29,13 +29,14 @@ const Portfolio: React.FC = () => {
             <Link
               key={project.id}
               href={project.link}
+              target='_blank'
               className={`group block space-y-6 ${idx % 2 !== 0 ? 'md:mt-24' : ''}`}
             >
               <div className="relative rounded-[3rem] overflow-hidden aspect-4/3 border transition-all duration-700 group-hover:rounded-4xl bg-accent border-black/5 dark:bg-white/5 dark:border-white/5">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover grayscale transition-all duration-1000 group-hover:grayscale-0 group-hover:scale-105"
+                  className="w-full object-cover grayscale transition-all duration-1000 group-hover:grayscale-0 group-hover:scale-105"
                 />
                 <div className="absolute top-8 right-8 w-14 h-14 rounded-full flex items-center justify-center opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 shadow-xl bg-brandWhite text-primary dark:bg-primary dark:text-brandWhite">
                   <ArrowUpRight size={24} />

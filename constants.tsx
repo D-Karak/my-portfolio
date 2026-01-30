@@ -9,6 +9,7 @@ export const PROJECTS: Project[] = [
     subtitle: 'For The Furnish',
     image: '/images/the-furnish.png',
     link: 'https://e-commerce-roan-mu.vercel.app/',
+    githubLink: '#',
     category: 'Full Stack'
   },
   {
@@ -17,6 +18,7 @@ export const PROJECTS: Project[] = [
     subtitle: 'For Zume AI',
     image: '/images/zume-ai.png',
     link: 'https://zumeai.vercel.app/',
+    githubLink: '#',
     category: 'Full Stack'
   },
   {
@@ -25,6 +27,7 @@ export const PROJECTS: Project[] = [
     subtitle: 'For Dibyendu Karak',
     image: '/images/portfolio.png',
     link: 'https://dibyendu-karak-portfolio-05.vercel.app/',
+    githubLink: '#',
     category: 'Portfolio'
   }
 ];
