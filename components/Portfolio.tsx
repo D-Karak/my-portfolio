@@ -26,7 +26,7 @@ const Portfolio: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {PROJECTS.map((project, idx) => (
-            <a
+            <Link
               key={project.id}
               href={project.link}
               className={`group block space-y-6 ${idx % 2 !== 0 ? 'md:mt-24' : ''}`}
@@ -48,7 +48,7 @@ const Portfolio: React.FC = () => {
                 <h3 className="text-3xl font-bold tracking-tighter text-primary dark:text-brandWhite">{project.title}</h3>
                 <p className="text-secondary font-medium italic">— {project.subtitle}</p>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </div>

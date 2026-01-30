@@ -5,27 +5,27 @@ import { Project, Experience, BlogPost, Skill } from './types';
 export const PROJECTS: Project[] = [
   {
     id: '1',
-    title: 'Halo Digital Agency Website',
-    subtitle: 'For Squeeze',
-    image: 'https://picsum.photos/seed/halo/800/600',
-    link: '#',
+    title: 'The Furnish E-commerce Website',
+    subtitle: 'For The Furnish',
+    image: '/images/the-furnish.png',
+    link: 'https://e-commerce-roan-mu.vercel.app/',
     category: 'Full Stack'
   },
   {
     id: '2',
-    title: 'Nexus Fintech Dashboard',
-    subtitle: 'For Quant Capital',
-    image: 'https://picsum.photos/seed/nexus/800/600',
-    link: '#',
-    category: 'UI/UX Design'
+    title: 'Resume Builder & Job Tracker Website',
+    subtitle: 'For Zume AI',
+    image: '/images/zume-ai.png',
+    link: 'https://zumeai.vercel.app/',
+    category: 'Full Stack'
   },
   {
     id: '3',
-    title: 'Digital Agency Platform',
-    subtitle: 'Internal Product',
-    image: 'https://picsum.photos/seed/agency/800/600',
-    link: '#',
-    category: 'E-commerce'
+    title: 'Portfolio Website',
+    subtitle: 'For Dibyendu Karak',
+    image: '/images/portfolio.png',
+    link: 'https://dibyendu-karak-portfolio-05.vercel.app/',
+    category: 'Portfolio'
   }
 ];
 
