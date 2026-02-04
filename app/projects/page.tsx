@@ -62,6 +62,9 @@ export default function ProjectsPage() {
                         </Link>
                     ))}
                 </div>
+                <div className='flex items-center justify-center'>
+                    <p className='text-center text-secondary text-lg md:text-xl max-w-2xl'>*Note: Some projects are not deployed, so you can check my other projects on <Link href="https://github.com/D-Karak" target='_blank' className="text-brandWhite hover:text-secondary transition-colors">GitHub</Link>.</p>
+                </div>
             </div>
         </main>
     );
