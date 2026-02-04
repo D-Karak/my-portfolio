@@ -61,22 +61,13 @@ export const PROJECTS: Project[] = [
 
 export const EXPERIENCES: Experience[] = [
   {
-    id: '1',
-    company: 'Creative Minds',
-    location: 'New York, USA',
-    period: 'February 2022 - Present',
-    role: 'Senior Frontend Engineer',
-    description: 'Innovated design systems and architected scalable React applications.',
-    tags: ['React', 'Next.js', 'Typescript']
-  },
-  {
-    id: '2',
-    company: 'Innovative Designs Inc.',
-    location: 'San Francisco, USA',
-    period: 'January 2020 - February 2022',
-    role: 'Full Stack Developer',
-    description: 'Led UI/UX initiatives and crafted seamless digital experiences.',
-    tags: ['Node.js', 'GraphQL', 'PostgreSQL']
+    id: '',
+    company: '',
+    location: '',
+    period: '',
+    role: '',
+    description: '',
+    tags: []
   }
 ];
 

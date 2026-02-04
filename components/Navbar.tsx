@@ -52,7 +52,7 @@ const Navbar: React.FC = () => {
           </a>
 
           <button
-            className="md:hidden p-2 text-primary"
+            className="md:hidden w-9 h-9 flex items-center justify-center p-2 text-primary bg-brandWhite rounded-xl transition-discrete"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -74,10 +74,11 @@ const Navbar: React.FC = () => {
         ))}
         <a
           href="#contact"
-          className="flex items-center justify-center gap-2 px-6 py-4 transition-colors rounded-2xl font-bold"
+          className="flex items-center justify-center gap-2 px-6 py-4 transition-colors rounded-2xl font-bold bg-primary text-brandWhite"
           onClick={() => setIsMenuOpen(false)}
         >
-          Contact
+          Let's Connect
+          <ArrowUpRight size={16} />
         </a>
       </div>
     </nav>
