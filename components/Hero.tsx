@@ -17,8 +17,8 @@ const Hero: React.FC = () => {
                 Software Development Engineer
               </p>
             </div>
-            <h1 className="text-[15vw] lg:text-[10rem] font-bold tracking-[-0.06em] leading-[0.85] italic text-brandWhite">
-              Clarity.
+            <h1 className="md:block hidden text-[15vw] lg:text-[10rem] font-bold tracking-[-0.06em] leading-[0.85] italic text-brandWhite">
+              I make <span >websites</span>
             </h1>
             <p className="text-xl md:text-2xl text-secondary max-w-lg leading-snug mt-[34px]">
               Specializing in <span className="font-bold text-brandWhite">minimal interfaces</span> that convert complexity into seamless user journeys.

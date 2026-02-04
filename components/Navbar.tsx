@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
             href="#contact"
             className={`hidden md:flex items-center gap-2 px-6 py-2.5 text-sm font-bold transition-all hover:shadow-lg active:scale-95 ${isScrolled ? 'bg-primary text-brandWhite' : 'bg-brandWhite text-primary'}`}
           >
-            Contact
+            Connect
             <ArrowUpRight size={16} />
           </a>
 
