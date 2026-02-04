@@ -49,7 +49,7 @@ const About: React.FC = () => {
                 <div className="mt-1 w-6 h-6 rounded-full flex items-center justify-center shrink-0 bg-brandWhite">
                   <Plus size={14} className="text-primary" />
                 </div>
-                <p className="text-secondary text-sm leading-relaxed">With 2+ years of experience, I specialize in creating intuitive, user-focused web app that solve real-world problems and deliver seamless digital experiences.</p>
+                <p className="text-secondary text-sm leading-relaxed">With 1.5+ years of hands-on experience, I specialize in creating intuitive, user-focused web app that solve real-world problems and deliver seamless digital experiences.</p>
               </div>
               <div className="flex gap-4">
                 <div className="mt-1 w-6 h-6 rounded-full flex items-center justify-center shrink-0 bg-brandWhite">
